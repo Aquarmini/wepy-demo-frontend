@@ -1,4 +1,6 @@
 <style lang="less">
+  @import 'node_modules/weui-wxss/dist/style/weui.wxss';
+
   .container {
     height: 100%;
     display: flex;
@@ -8,7 +10,6 @@
     box-sizing: border-box;
   }
 </style>
-<style src="node_modules/weui/dist/style/weui.min.css"></style>
 
 <script>
   import wepy from 'wepy'
